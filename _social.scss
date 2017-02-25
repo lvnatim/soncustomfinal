@@ -1,0 +1,149 @@
+/* FACEBOOK STUFF */
+
+.fts-jal-fb-description-wrap{
+  padding: 10px !important;
+}
+
+.fts-jal-fb-description-wrap *{
+  color: #666666;
+  font-size: 12px !important;
+  line-height: 1.1;
+  white-space: pre-wrap;
+}
+
+.fts-simple-fb-wrapper{
+  background: #EFEFEF;
+  position: relative;
+  width: 100%;
+}
+.fts-jal-fb-header,
+.fts-jal-fb-user-thumb,
+.fts-jal-fb-user-name,
+.fts-jal-fb-post-time,{
+  display: none !important;
+  margin: 0 !important;
+}
+.fts-jal-fb-link-wrap,
+.fts-jal-fb-header a,
+.fts-jal-single-fb-post a {
+  margin: 0;
+}
+.fts-likes-shares-etc-wrap a {
+  padding: 10px 5px;
+}
+.fts-likes-shares-etc-wrap a:after{
+  content: "";
+  position: absolute;
+}
+.fts-jal-single-fb-post{
+  padding: 0 !important;
+}
+.fts-jal-fb-message{
+  color: #666666;
+  line-height: 1.1;
+  margin-top: -5px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  @media(min-width:1024px){font-size:14px}
+}
+.fts-jal-fb-top-wrap{
+  margin-bottom: 0;
+}
+.fts-jal-fb-right-wrap{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.fts-jal-fb-see-more{
+  color: #CCCCCC;
+  text-align: left;
+}
+.fts-jal-fb-see-more i{
+  color: #CCCCCC;
+}
+.fts-jal-fb-message{
+  padding: 10px;
+}
+.fts-jal-fb-message a {
+  color: #666666;
+  font-size: 14px;
+  @media(min-width:1024px){font-size:14px}
+}
+
+/* TWITTER */
+
+#twitter-feed-pivotandpilot{
+  width: 100%;
+}
+
+.fts-tweeter-wrap{
+  background-color: #EFEFEF;
+}
+
+.fts-tweeter-wrap .tweeter-info{
+  overflow: hidden;
+  padding: 0;
+}
+
+.tweeter-info .fts-right{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 !important;
+  white-space: pre-wrap;
+}
+
+.tweeter-info .fts-twitter-image,
+.tweeter-info .fts-right .fts-uppercase,
+.tweeter-info .time{
+  display: none;
+}
+
+.fts-tweeter-wrap .tweeter-info img {
+  border-radius: 0;
+  margin: 0 !important;
+}
+
+.fts-twitter-text{
+  color: #666666;
+  line-height: 1.1;
+  padding: 10px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  @media(min-width:1024px){font-size:14px}
+}
+.fts-twitter-text a{
+  color: #666666;
+  font-size: 14px;
+  @media(min-width:1024px){font-size:14px}
+}
+
+.fts-twitter-reply-wrap{
+  margin: 0;
+  padding: 10px 5px;
+}
+
+.fts-tweet-reply-left{
+  display:none;
+}
+.fts-tweet-others-right{
+  margin-left: 5px;
+}
+
+.fts-tweeter-wrap a{
+  margin-left: 0;
+}
+
+.fts-twitter-retweet,
+.fts-twitter-favorites{
+  color: #CCCCCC;
+  font-size: 14px !important;
+}
+
+.fts-twitter-retweet:before{
+  font-size: 14px !important;
+}
+
+
+
+#sb_instagram{
+  white-space: pre-wrap;
+}

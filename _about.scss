@@ -1,0 +1,127 @@
+#about-team{
+  @media(min-width:768px){
+    padding-bottom: 45px;
+  }
+}
+
+#about-team .about-image-container{
+  text-align: center;
+  padding: 0 45px;
+  @media(min-width:768px){
+    padding: 0 0;
+    width: calc(50% - 15px);
+  }
+}
+
+.about-team-member{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  text-align: center;
+  @media(min-width:768px){
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    margin: -30px 0px;
+    padding: 0px 60px;
+  }
+  @media(min-width:1024px){
+    padding: 0px 90px;
+  }
+}
+
+.about-team-member:not(:first-of-type){
+  padding-top: 0;
+}
+
+.about-team-member.right{
+  @media(min-width:768px){
+    flex-direction: row-reverse;
+  }
+}
+
+.about-team-member:last-of-type{
+  padding-bottom: 0;
+}
+
+.about-team-member p{
+  padding: 0 15px;
+  width: 100%;
+}
+
+.about-team-member .about-team-member-description {
+  max-height: 30px;
+  overflow: hidden;
+  font-size: 12px;
+  transition: 0.3s;
+  @media(min-width:768px){
+    position: absolute;
+      top: 15%;
+      right: 15%;
+    text-align: left;
+    width: calc(50% - 75px);
+    z-index: 10;
+  }
+}
+
+.about-team-member .about-team-member-description:before{
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  content: "+";
+  display:flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}
+
+.about-team-member .about-team-member-description:hover{
+  max-height: 200px;
+}
+
+.about-team-member .about-team-member-description:hover:before{
+  content: "-";
+}
+
+.about-team-member.right .about-team-member-description {
+  @media(min-width:768px){
+    margin-left: calc(50% - 45px);
+    text-align: right;
+  }
+}
+
+.about-team-member .about-team-member-name{
+  margin-top: -18px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+  @media(min-width:768px){
+    z-index: 5;
+  }
+}
+
+.about-team-member .about-team-member-title{
+  font-size: 15px;
+  margin-bottom: 8px;
+  @media(min-width:768px){
+    background: $red;
+    display: inline-block;
+    padding: 16px 0;
+    position: relative;
+    width: 200px !important;
+    top: -24px;
+  }
+}
+
+.about-team-meta-container{
+  @media(min-width:768px){
+    padding: 0 60px;
+    position: absolute;
+      bottom: 30px;
+      left: 0;
+    width: 100%;
+  }
+}
+
